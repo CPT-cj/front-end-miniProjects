@@ -1,0 +1,78 @@
+.Header-bg {
+  background: url("../imgs/front-page-header.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.header_title {
+  font-size: 5.5rem;
+  color: rgb(247, 247, 247);
+  margin-top: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 29px;
+}
+.dott {
+  color: yellow;
+}
+.header_description {
+  max-width: 750px;
+  height: 52px;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 15.5px;
+  font-weight: 500;
+}
+p {
+  margin: 0;
+}
+
+.lrn_button {
+  min-width: 242px;
+  height: 63px;
+  line-height: 57px;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 0 15px;
+  padding: 0 70px;
+  display: inline-block;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.lrn_button:hover {
+  background: rgba(0, 0, 0, 0.1);
+  transition: all 0.2s 75ms ease-in-out;
+}
+
+.dl_button {
+  height: 63px;
+  min-width: 242px;
+  line-height: 57px;
+  background: #f1d204;
+  margin: 0 15px;
+  padding: 0 70px;
+  display: inline-block;
+  border: 0;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.dl_button:hover {
+  background: #d6ba00e1;
+  transition: all 0.2s 75ms ease-in-out;
+}
