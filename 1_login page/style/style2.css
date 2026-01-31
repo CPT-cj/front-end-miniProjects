@@ -1,0 +1,144 @@
+@font-face {
+  font-family: poppins;
+  src: local(poppins) url(../font/ttf/Poppins-Regular.ttf) format(truetype);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #080710;
+  font-family: poppins;
+}
+
+input,
+button {
+  border: none;
+  font-family: inherit;
+}
+
+.container {
+  width: 400px;
+  height: 1000px;
+  margin: 0 auto;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+form {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.13);
+  border: solid 2px rgba(255, 255, 255, 0.13);
+  border-radius: 10px;
+
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.inside-form {
+  width: 75%;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  margin: 0px auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 55px;
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 18px;
+  color: aliceblue;
+  margin-bottom: 5px;
+  margin-right: 190px;
+}
+
+.h31 {
+  margin-right: 197px;
+}
+
+.submit {
+  font-size: 16px;
+  padding: 15px 0px;
+  height: 60px;
+  width: calc(100% + 15px);
+  border-radius: 8px;
+}
+
+[type="text"] {
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.07);
+  font-weight: 300;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 0px 10px;
+  margin: 0px auto;
+
+  transition: all 300ms ease-in 50ms;
+  transform: scale(1) skew(0px);
+}
+
+.input1 {
+  margin-bottom: 40px;
+}
+
+.input2 {
+  margin-bottom: 50px;
+}
+
+[type="text"]::placeholder {
+  color: rgba(255, 255, 255, 0.623);
+}
+
+[type="text"]:focus {
+  outline: 1px solid rgba(226, 242, 245, 0.705);
+  box-shadow: 0px 0px 15px rgba(0, 217, 255, 0.705);
+  transform: scale(1.04);
+}
+
+[type="submit"]:hover {
+  outline: 1px solid rgba(226, 242, 245, 0.705);
+  box-shadow: 0px 0px 15px rgba(0, 217, 255, 0.705);
+  transform: scale(1.04);
+}
+
+.square1,
+.square2 {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+
+  position: absolute;
+}
+
+.square1 {
+  bottom: 175px;
+  right: -20px;
+  background: linear-gradient(260deg, #ff8f00, #f4511e);
+  transform: scale(1.33);
+  z-index: -1;
+}
+
+.square2 {
+  top: 170px;
+  left: -70px;
+  background: linear-gradient(0deg, #03a9f4, #0d47a1);
+  transform: scale(1.33);
+  z-index: -1;
+}
