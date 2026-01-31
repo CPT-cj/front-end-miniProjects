@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoes Product (Webilo)</title>
+    <link rel="stylesheet" href="../src/output.css" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body class="flex justify-center">
+    <div
+      class="containerr h-screen w-full bg-cyan-900 mx-auto flex justify-center items-center"
+    >
+      <div
+        class="product-card relative max-w-2xs h-103 bg-white rounded-[1rem] overflow-hidden flex flex-col items-center shadow-lime-950 shadow-2xl"
+      >
+        <img
+          class="card-img w-full h-auto"
+          src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png"
+          alt="shoes"
+        />
+        <div class="card-details w-full px-4">
+          <h4
+            class="card-title font-bold text-xl hover:scale-103 translate-0.5 transition-all duration-150 delay-75 hover:shadow-2xs"
+          >
+            Vans Sk-Hi MTE Shoe
+          </h4>
+          <h6
+            class="card-subtitle mb-2 mt-[2px] font-semibold text-[14px] opacity-60 hover:scale-103 translate-0.5 transition-all duration-150 delay-75 hover:shadow-2xs"
+          >
+            Style: VATXRJ
+          </h6>
+          <p
+            class="card-text font-medium text-[14px] opacity-90 hover:scale-103 translate-0.5 transition-all duration-150 delay-75 hover:shadow-2xs"
+          >
+            The Vans All-Weather MTE Collection features footwear and apparel
+            designed to withstand still looking cool.
+          </p>
+          <div class="options flex justify-center items-center gap-6 mt-3">
+            <select
+              class="outline-1 outline-lime-800 rounded-md cursor-pointer"
+            >
+              <option selected>Color</option>
+              <option value="1">yellow</option>
+              <option value="2">blue</option>
+              <option value="3">red</option>
+            </select>
+            <select
+              class="outline-1 outline-lime-800 rounded-md cursor-pointer"
+            >
+              <option selected>Size</option>
+              <option value="1">40</option>
+              <option value="2">41</option>
+              <option value="3">42</option>
+              <option value="3">43</option>
+            </select>
+          </div>
+          <div
+            class="buying flex justify-between items-center mt-3 font-sans font-bold"
+          >
+            <h5 class="price w-9 h-6 text-green-600">$125</h5>
+            <button
+              type="button"
+              class="button w-28 h-7 rounded-md text-white bg-[#FF1744] flex items-center justify-center gap-1 cursor-pointer not-hover:transition-all duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                class="size-5"
+              >
+                <path
+                  d="M1.75 1.002a.75.75 0 1 0 0 1.5h1.835l1.24 5.113A3.752 3.752 0 0 0 2 11.25c0 .414.336.75.75.75h10.5a.75.75 0 0 0 0-1.5H3.628A2.25 2.25 0 0 1 5.75 9h6.5a.75.75 0 0 0 .73-.578l.846-3.595a.75.75 0 0 0-.578-.906 44.118 44.118 0 0 0-7.996-.91l-.348-1.436a.75.75 0 0 0-.73-.573H1.75ZM5 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM13 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"
+                />
+              </svg>
+
+              <i class="text-white font-medium text-[13px]">Add to Cart</i>
+            </button>
+          </div>
+        </div>
+        <span class="heart absolute top-3 right-4"></span>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

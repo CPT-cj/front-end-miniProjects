@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "yekan", sans-serif;
+}
+
+@font-face {
+  font-family: "yekan";
+  src: url("../LMU_Yekan.ttf"), format("truetype");
+}
+
+.button:hover {
+  scale: 1.02;
+  translate: -2px -1px;
+  opacity: 0.95;
+  box-shadow: 3px 3px 5px 0px #7c0030;
+  transition: all 200ms 75ms ease-in-out;
+}
