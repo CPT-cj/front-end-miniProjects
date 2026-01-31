@@ -1,0 +1,239 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: #f7f2f0;
+  font-family: "shabnam";
+}
+
+::selection {
+  color: white;
+  background-color: #29b6f6;
+}
+
+@font-face {
+  font-family: shabnam;
+  src: local(shabnam) url(../font/woff2/Shabnam-FD.woff2), format(woff2);
+}
+
+.container {
+  max-width: 1216px;
+  /* width: calc(100% - 700px); */
+  /* width: clamp(470px, 80%, 1216px); */
+  /* width: max(80%, 500px); */
+  /* width: min(); */
+  margin: 56px auto 0px auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  height: 25px;
+  max-width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 40px;
+
+  box-shadow: 1px 1px 5px #dfd5d2;
+}
+
+.right-part {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.text-header1 {
+  font-weight: 600;
+  margin-top: 2.5px;
+  font-weight: 400;
+}
+
+.text-header2 {
+  font-weight: 700;
+}
+
+.text-header3 {
+  margin-top: 4px;
+  margin-bottom: auto;
+  margin-left: 10px;
+  color: #2358a8c0;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.text-header3:hover {
+  color: #0184ff;
+}
+
+a:hover {
+  color: #003ad8dc;
+}
+
+.production {
+  max-width: 100%;
+  height: 380.5px;
+  background-color: #f7f2f0;
+  border-radius: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product1,
+.product2,
+.product3,
+.product4 {
+  background-color: #fff;
+  width: 270px;
+  height: 100%;
+  box-shadow: 2px 2px 8px #dfd5d2;
+  border-radius: 8px;
+}
+
+.product1,
+.product2,
+.product3,
+.product4 {
+  overflow: hidden;
+}
+
+.down-text1 {
+  width: 225px;
+  height: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right-part1 {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.left-part1 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.p1 {
+  width: 20px;
+  height: auto;
+  color: #29b6f6;
+}
+
+.price1 {
+  font-weight: 900;
+  font-size: 19px;
+}
+
+.tooman {
+  font-weight: 550;
+  font-size: 14.5px;
+  margin-top: 4px;
+  color: #5a5a5a;
+}
+
+.right-up-part2 {
+  width: 228px;
+  height: 18px;
+
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 27px;
+}
+
+.price-off1 {
+  text-decoration: line-through;
+  font-size: 13px;
+  margin-top: 2px;
+  color: #505050;
+}
+
+.percent-off1 {
+  font-size: 14.5px;
+  color: #1565c0;
+  font-weight: 800;
+  margin-right: 6px;
+}
+
+.point1 {
+  font-size: 13px;
+  margin-top: 1px;
+  color: #505050;
+}
+
+.main-text1 {
+  width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+}
+
+.text1 {
+  line-height: 20px;
+  text-align: center;
+  color: #505050;
+
+  cursor: pointer;
+}
+
+.image1 {
+  width: 280px;
+  height: auto;
+}
+
+.right-up-part3 {
+  width: 228px;
+  height: 18px;
+
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.right-up-part4 {
+  width: 228px;
+  height: 18px;
+
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+}
+
+.price-off4 {
+  font-size: 13px;
+  margin-top: 2px;
+  color: #505050;
+  position: relative;
+}
+.price-off4::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #1565c0;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
