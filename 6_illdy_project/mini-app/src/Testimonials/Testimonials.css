@@ -1,0 +1,89 @@
+.testimonials_bg {
+  width: 100%;
+  min-height: 610px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: url(../imgs/testiomnials-background.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.title_testi {
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 45px;
+  color: white;
+  text-align: center;
+}
+.testimonials_img {
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+}
+.testimonials_comment_box {
+  max-width: 975px;
+  height: auto;
+  background-color: #6a4d8a;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 45px 35px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.testimonials_comment {
+  max-width: 905px;
+  min-height: 78px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials_comment_box::after {
+  content: "";
+  margin-left: auto;
+  margin-right: auto;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 19px 18px 0 18px;
+  border-color: #6a4d8a transparent transparent transparent;
+  position: absolute;
+  bottom: -19px;
+}
+.comment_name {
+  color: white;
+  font-size: 20px;
+  font-family: "poppins";
+  font-weight: 800;
+  margin: 10px 0;
+}
+.row_dots {
+  max-width: 975px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+  border: 0;
+}
+.dot1 {
+  background-color: transparent;
+  border: 1px white solid;
+}

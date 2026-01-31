@@ -1,0 +1,29 @@
+.project_bg {
+  background-color: aliceblue;
+  width: 100%;
+  height: auto;
+  padding-top: 65px;
+}
+.title {
+  color: #545454;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+.title_description {
+  color: #8c9597;
+  font-size: 16px;
+  margin-bottom: 65px;
+}
+.projects_row {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.project_img {
+  width: 100%;
+  height: auto;
+  transition: all 200ms 50ms ease-out;
+}
+.project_img:hover {
+  opacity: 0.55;
+}
