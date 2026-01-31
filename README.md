@@ -7,7 +7,7 @@ Nothing fancy, just real practice, real mistakes, and real progress.❤️
 | # | Project Name | Description | View |
 
 
-| 1 | **Login Page** | login form using HTML, CSS | [View][1_login-page] |
+| 1 | **Login Page** | login form using HTML, CSS | [View](1_login-page) |
 
 | 2 | **card** | product card using HTML, CSS | [View](2_card) |
 
